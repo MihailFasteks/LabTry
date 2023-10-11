@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DB847C582AD540D700F400EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB847C572AD540D700F400EA /* main.cpp */; };
+		DB847C602AD540EA00F400EA /* DevideByZero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB847C5E2AD540EA00F400EA /* DevideByZero.cpp */; };
+		DB847C632AD540FB00F400EA /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB847C612AD540FB00F400EA /* Exception.cpp */; };
+		DBAF308C2AD6613100AD035F /* IndexException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBAF308A2AD6613100AD035F /* IndexException.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		DB847C542AD540D700F400EA /* Lab try catch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab try catch"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB847C572AD540D700F400EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DB847C5E2AD540EA00F400EA /* DevideByZero.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DevideByZero.cpp; sourceTree = "<group>"; };
+		DB847C5F2AD540EA00F400EA /* DevideByZero.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DevideByZero.hpp; sourceTree = "<group>"; };
+		DB847C612AD540FB00F400EA /* Exception.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		DB847C622AD540FB00F400EA /* Exception.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		DBAF308A2AD6613100AD035F /* IndexException.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndexException.cpp; sourceTree = "<group>"; };
+		DBAF308B2AD6613100AD035F /* IndexException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IndexException.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				DB847C572AD540D700F400EA /* main.cpp */,
+				DBAF308A2AD6613100AD035F /* IndexException.cpp */,
+				DBAF308B2AD6613100AD035F /* IndexException.hpp */,
+				DB847C612AD540FB00F400EA /* Exception.cpp */,
+				DB847C622AD540FB00F400EA /* Exception.hpp */,
+				DB847C5E2AD540EA00F400EA /* DevideByZero.cpp */,
+				DB847C5F2AD540EA00F400EA /* DevideByZero.hpp */,
 			);
 			path = "Lab try catch";
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB847C582AD540D700F400EA /* main.cpp in Sources */,
+				DB847C632AD540FB00F400EA /* Exception.cpp in Sources */,
+				DBAF308C2AD6613100AD035F /* IndexException.cpp in Sources */,
+				DB847C602AD540EA00F400EA /* DevideByZero.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
